@@ -1,1 +1,12 @@
-sr
+.bi {
+	display: inline-block;
+	vertical-align: text-bottom;
+}
+
+.bi .bi-info-circle-fill {
+	color: #0d6efd;
+}
+
+.info {
+	color: #0d6efd;
+}
