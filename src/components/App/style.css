@@ -1,0 +1,106 @@
+.App {
+	text-align: center;
+	font-family: SourceSansPro, 'Helvetica Neue', Helvetica, Arial,
+		'Lucida Grande', sans-serif;
+}
+
+.App-status-message {
+	line-height: 1.5;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.App-message-row {
+	text-align: left;
+	padding-left: 55px;
+	height: 50px;
+}
+
+.App-status-abort-message {
+	display: inline-block;
+	font-size: 13px;
+	width: 75%;
+	padding-left: 15px;
+	font-weight: 500;
+	text-align: left;
+}
+
+.App-icon {
+	font-size: 1.5em;
+	display: inline-block;
+}
+
+.App-icon .invalid {
+	width: 30px;
+}
+
+.App-body {
+	background-color: #f3f5f8;
+	font-size: large;
+	padding-left: 16px;
+	display: flex;
+	height: 100vh;
+}
+
+.App-container {
+	display: flex;
+	flex-direction: row;
+}
+
+@media (max-width: 800px) {
+	.App-container {
+		flex-direction: column;
+	}
+}
+
+.App-game-panel {
+	display: inline-block;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 30%;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	margin-right: 1em;
+	background-color: #ffffff;
+	border: 1px solid #eee;
+	box-shadow: 0 2px 2px #ccc;
+}
+
+@media (max-width: 800px) {
+	.App-game-panel {
+		width: 98%;
+	}
+}
+
+.App-game-panel .buttons-row {
+	margin-top: 20px;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.marginLeft10 {
+	margin-left: 10px;
+}
+
+.marginBottom10 {
+	margin-bottom: 10px;
+}
+
+.marginTop10 {
+	margin-top: 10px;
+}
+
+.marginTop15 {
+	margin-top: 15px;
+}
+
+.center-me {
+	margin: 0 auto;
+}
